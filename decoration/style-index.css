@@ -1,0 +1,67 @@
+/* header */
+header {
+    height: 20vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    justify-content: space-around;
+}
+header img {
+    height: 80%;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgba(a, a, a, 0.6);
+    border: 1px solid green;
+}
+
+.navbox {
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+}
+
+.produto {
+    display: flex;
+    flex-flow: nowrap column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid green;
+    width: 20rem;
+}
+
+/* -------------CSS DO MAIN---------- */
+
+.box-livros{
+    
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box{
+    border:1px solid black;
+    width: 15%;
+    margin:5px;
+    padding:3px
+}
+
+.livro{
+    
+    text-align: center;
+}
+
+.livro i{
+    font-size:50px;
+}
+
+.ver{
+    color:red;
+}
